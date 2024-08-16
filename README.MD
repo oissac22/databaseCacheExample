@@ -1,0 +1,1 @@
+O objetivo deste código é mostrar como criar uma base de dados local no navegador usando cache com possibilidade de cadastro, e administração de dados.
