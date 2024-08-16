@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js"></script>
+    <style>
+        input {
+            padding: 10px;
+            border: solid 1px #ccc;
+        }
+        button {
+            padding: 10px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table th,
+        table td {
+            border:  solid 1px #ddd;
+            padding: 10px;
+            min-width: 150px;
+        }
+        .deleteList {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="formData">
+        <input type="hidden" name="id" autofocus />
+        <input placeholder="Name" name="name" />
+        <input placeholder="Age" type="number" name="age" />
+        <button>Save</button>
+    </form>
+
+    <br />
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="list">
+        </tbody>
+    </table>
+</body>
+</html>
